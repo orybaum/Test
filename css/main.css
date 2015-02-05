@@ -1,0 +1,114 @@
+/*******
+GENERAL
+*******/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+max-width: 940px;
+margin: 0 auto;
+padding: 0 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+margin: 0 0 1em 0;
+}
+
+/*******
+HEADING
+*******/
+
+.profile-photo {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat' , sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal
+}
+
+
+/*******
+FOOTER
+*******/
+
+footer {
+  font-size:  0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+/*******
+CONTACT
+*******/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  .contact-info li {
+      display: inline-block;
+      width: 60px;
+      font-size: 60px;
+      margin: 0 22px;
+  }
+    .contact-info li a {
+        color: #000;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -ms-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+      .contact-info li:hover a {
+        opacity: 0.5;
+      }
+      .contact-info li.twit:hover a {
+        color: #0099D4;
+      }
+      .contact-info li.inst:hover a {
+        color: #915B43;
+      }
+      .contact-info li.face:hover a {
+        color: #415994;
+      }
+      .contact-info li.mail:hover a {
+        color: gray;
+      }
+
+#contact {
+  text-align: center;
+}
+
+
+
+
